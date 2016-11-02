@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KOMO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="div-wrapper">
+    <div id="home" class="single-div">
+      <div class="bcg">
+        <div class="navigation">
+          <div class="links-container">
+            <ul style="list-style:none;">
+              <li class="pull-left"><a href="#"><img class="logo" src="images/Layer_2.png"/></a></li>
+              <li class="pull-right" style="padding-left:5px;"><a href="#about"><h4> About </h4></a></li>
+              <li class="pull-right"><a href="#newsletter"><h4> Products </h4></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 style="top:365px;right:10px;position:absolute;font-weight:300;"> FEATURED BLEND: RISE & SHINE </h3>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn" style="top:450px;right:10px;position:absolute;">Our Mission</button>
+        <h3 class="main-h3" style="top:400px;right:10px;position:absolute;font-weight:500;text-align:word-wrap: break-word; "> SAY GOODBYE TO YOUR CUP OF JOE</h3>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times</span>
+              <h2>Komo Tea Leaf</h2>
+            </div>
+            <div class="modal-body">
+              <p>We strive to ensure the purest quality tea</p>
+              <strong><h4 style=" color: rgba(220, 255, 212, 1);">- Sip Freely -</h4></strong>
+            </div>
+            <div class="modal-footer">
+              <h3>EST. 2015</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end modal -->
+
+      </div>
+    </div>
+
+    <div id="rise"class="single-div">
+      <div id="first" class="col-xs-3 square-icons">
+        <!-- links to top of image -->
+          <a id="about">
+            <h1 style="padding-top: 50px; margin-top: -50px;"></h1>
+          </a>
+          <!-- end link -->
+          <div class="layer">
+            <h1 style="color:white;"> Rise and Shine </h1>
+            <span> <img style="text-align:center;"src="images/GroupSun.png"/> </span>
+            <h4 style="color:white;">Experience Better Tea </h4>
+          </div>
+        </div>
+        <div id="second" class="col-xs-3 square-icons">
+        </div>
+        <div id="third" class="col-xs-3 square-icons">
+        </div>
+        <div id="fourth" class="col-xs-3 square-icons">
+        </div>
+    </div>
+
+    <div id="update" class="bcg">
+        <span id="experience-text"><h3>GET UPDATES FROM KOMO TEA</h3></span>
+      <br>
+      <!-- FORM      -->
+      <form class="story" >
+        <input type="text"  value="Email@sample.com">
+        <input id="myBtn" type="submit" value="Submit">
+      </form>
+
+
+    </div>
+    <!-- INFO -->
+    <div id="experience">
+      <div class="col-xs-6" id="box">
+        <span id="box"><img src="images/box.png"/></span>
+      </div>
+      <div class="col-xs-6" id="ellipse">
+        <span><img src="images/Ellipse1.png"/></span>
+      </div>
+      <div class="col-xs-6" id="layer">
+        <span ><img src="images/Layer16.png"/></span>
+      </div>
+    </div>
+
+    <div id="newsletter">
+      <div class="bcg">
+      </div>
+    </div>
+
+
+    <div id="footer" class="bcg">
+      <span style="position:relative;left:calc(50% - 100px);top:15px;"><a href="https://www.google.com"><img src="images/google-logo.png"/></a><a href="https://www.twitter.com"><img src="images/twitter-logo.png"/></a><a href="https://www.facebook.com"><img src="images/facebook-letter-logo.png"/></a></span>
+
+
+    </div>
+  </div>
+
+</body>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "inline";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+</html>
