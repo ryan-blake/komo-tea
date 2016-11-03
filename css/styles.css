@@ -115,10 +115,6 @@ li.pull-right h4:hover{
    position: relative;
  }
 
- #experience-text {
-   top:160px;
-   position: absolute;
- }
 
  #update {
   height: 550px;
@@ -325,10 +321,15 @@ li.pull-right h4:hover{
   }
 
   #update {
-    background-position: -160px;
+    background-position: -460px;
     top:-38px;
   }
   #ellipse, #layer {
     left: 8px !important;
   }
+
+  #experience-text h3{
+    font-size: medium;
+  }
+
 }
