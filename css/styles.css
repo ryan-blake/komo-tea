@@ -83,9 +83,9 @@ li.pull-right h4:hover{
      position: absolute;
      top: 0;
      left: 0;
-     width: 315px;
+     width: 314px;
      height: 190px;
-     margin-left: 1px;
+     margin-left: -1px;
  }
 
  #second {
@@ -337,5 +337,7 @@ cursor: pointer;
   #experience-text h3{
     font-size: medium;
   }
-
+  .scroll-down {
+    display: none;
+  }
 }
